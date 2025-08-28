@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0d5;
+    padding-top: 70px; /* space for navbar */
+}
+
+.btn-login {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 9px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+  background: linear-gradient(45deg, #0056b3, #0099cc);
+  transform: scale(1.05);
+}
+footer a{
+    color: aliceblue;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+footer a:hover{
+    color: black;
+}
+
+/* HTML5 Logo Hover Effect */
+.html-logo {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.html-logo:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    cursor: pointer;        /* Change cursor to pointer */
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
