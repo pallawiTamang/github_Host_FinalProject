@@ -99,12 +99,14 @@
         </div>
     </div>
 
-    <!-- Example Card -->
-    <div class="card mb-4 shadow-sm border-info">
+   <div class="row">
+    <!-- Example Card with JS Code -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow-sm border-info">
         <div class="card-body">
-            <h3 class="card-title"><i class="bi bi-code text-info"></i> Example</h3>
-            <p class="card-text">A simple JavaScript example:</p>
-            <pre>
+          <h3 class="card-title"><i class="bi bi-code text-info"></i> Example</h3>
+          <p class="card-text">A simple JavaScript example:</p>
+          <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -115,9 +117,28 @@
     &lt;button onclick="document.getElementById('demo').innerHTML='Hello, JavaScript!' "&gt;Click Me&lt;/button&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-            </pre>
+          </pre>
         </div>
+      </div>
     </div>
+
+    <!-- Output Demo -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow-sm border-success">
+        <div class="card-body">
+          <h3 class="card-title"><i class="bi bi-window text-success"></i> Output Demo</h3>
+          <p class="card-text">Here’s how the JavaScript works:</p>
+          <div class="p-3 border rounded bg-white">
+            <h1 id="demo">Hello</h1>
+            <button class="btn btn-primary"
+              onclick="document.getElementById('demo').innerHTML='Hello, JavaScript!'">
+              Click Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Conclusion Card -->
     <div class="card mb-4 shadow-sm border-warning">
